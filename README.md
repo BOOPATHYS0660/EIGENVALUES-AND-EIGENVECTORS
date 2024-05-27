@@ -14,8 +14,17 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 ### Step 4: 
 End the program
 ## Program:
-![Screenshot 2024-04-06 150449](https://github.com/BOOPATHYS0660/EIGENVALUES-AND-EIGENVECTORS/assets/155909381/2f79b735-bd8c-493d-b4ae-f05e19b37726)
+```
+#Program to find the eigenvalues and associated eigenvectors for the matrix
+#Developed by:Boopathy S
+#RegisterNumber:2305003002
+import numpy as np
+A=np.array([[2,2],[1,3]])
+values,vectors=np.linalg.eig(A)
+print(f"Eigen values are {values} Eigen vectors are {vectors}")
+```
 ## Output:
-![Screenshot 2024-04-06 150503](https://github.com/BOOPATHYS0660/EIGENVALUES-AND-EIGENVECTORS/assets/155909381/0cb3cbe3-8b2a-469b-9d74-08ab341acf15)
+![Screenshot 2024-05-27 142016](https://github.com/BOOPATHYS0660/EIGENVALUES-AND-EIGENVECTORS/assets/155909381/1f299740-eb3e-41ad-bf4e-e257c5fa611a)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
